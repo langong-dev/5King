@@ -1,5 +1,6 @@
 {
   "admin-password": "admin",
   "post": 1,
-  "name": "My blog"
+  "name": "My blog",
+  "land": "My own blog"
 }
