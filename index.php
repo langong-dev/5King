@@ -23,7 +23,7 @@ for ($i = 1; $i <= $config['post']; $i ++)
   <body>
     <div class="index-title">
       <br>
-      <h1><?php $blogname ?></h1>
+      <h1><?php echo $blogname ?></h1>
       <br>
     </div>
 
@@ -36,7 +36,7 @@ for ($i = 1; $i <= $config['post']; $i ++)
         {
           echo "
           <h3>".$posttit[$i]."</h3>
-          <span>In ".$tag[$i]."</span>
+          <span>In ".$posttag[$i]."</span>
           <hr><br>
           ";
         }
