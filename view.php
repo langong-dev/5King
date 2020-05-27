@@ -1,5 +1,6 @@
 <?php
 
-$pid = $_GET['pid']
+$pid = $_GET['pid'];
+
 
 ?>
