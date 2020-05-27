@@ -7,7 +7,7 @@ include "markhtml/markhtml.php";
 $config = $json->re ($fileio->getfile ("config.json"));
 
 $post = array();
-for ($i = 0; $i < $config['post']; $i ++)
+for ($i = 1; $i <= $config['post']; $i ++)
 {
   $post[$i] = $fileio->getfile ("post/$i");
 }
