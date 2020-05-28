@@ -44,7 +44,8 @@ if ($val != "")
       <form action="edit.php?pid=<?php echo $pid ?>" method="post">
         <input type="text" name="tit" value="<?php echo $posttit[$pid] ?>"><br>
         <input type="text" name="tag" value="<?php echo $posttag[$pid] ?>"><br>
-        <textarea name="val" rows="30"><?php echo $post[$pid] ?></textarea>
+        <textarea name="val" rows="30"><?php echo $post[$pid] ?></textarea><br>
+        <input type="button" value=" Back " onclick="javascript:window.location.href='./'">
         <input type="submit" value=" Go ">
       </form>
       <br>

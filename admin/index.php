@@ -43,6 +43,7 @@ include "includes.php";
           ?>
         </table>
         <a href="creat.php">Creat a new post</a><br>
+        <input type="button" value=" Back " onclick="javascript:window.location.href='/'">
         <input type="submit" value=" Go ">
       </form>
     </div>
