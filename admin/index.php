@@ -42,6 +42,7 @@ include "includes.php";
             }
           ?>
         </table>
+        <a href="creat.php">Creat a new post</a><br>
         <input type="submit" value=" Go ">
       </form>
     </div>
